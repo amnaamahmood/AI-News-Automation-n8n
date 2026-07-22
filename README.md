@@ -102,7 +102,7 @@ This data is passed to the AI processing stage.
 
 The AI Agent processes the retrieved article content using the Google Gemini language model.
 
-The AI prompt used:
+AI Prompt:
 
 ```
 Summarize this news article in 5 bullet points.
@@ -133,7 +133,7 @@ Stored information:
 | Summary | AI-generated summary |
 | Date | Processing timestamp |
 
-This provides a structured database of processed news articles.
+This creates a structured database of processed technology news.
 
 ---
 
@@ -149,29 +149,29 @@ Purpose:
 
 ---
 
-## Project Screenshots
+# Project Screenshots
 
-### Workflow Canvas
+## Workflow Canvas
 
-![Workflow](screenshots/workflow.png)
-
----
-
-### Successful Execution
-
-![Execution](screenshots/execution.png)
+![Workflow](workflow.png)
 
 ---
 
-### Google Sheets Output
+## Successful Execution
 
-![Google Sheet](screenshots/google-sheet.png)
+![Execution](execution.png)
 
 ---
 
-### Gmail Notification
+## Google Sheets Output
 
-![Gmail](screenshots/gmail.png)
+![Google Sheet](google-sheet.png)
+
+---
+
+## Gmail Notification
+
+![Gmail](gmail.png)
 
 ---
 
@@ -182,12 +182,10 @@ AI-News-Automation-n8n
 |
 ├── README.md
 ├── workflow.json
-|
-└── screenshots
-    ├── workflow.png
-    ├── execution.png
-    ├── google-sheet.png
-    └── gmail.png
+├── workflow.png
+├── execution.png
+├── google-sheet.png
+└── gmail.png
 ```
 
 ---
