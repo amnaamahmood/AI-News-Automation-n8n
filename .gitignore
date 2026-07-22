@@ -1,0 +1,23 @@
+# Environment variables
+.env
+
+# API keys and credentials
+credentials.json
+secrets.json
+
+# Node.js dependencies
+node_modules/
+
+# Logs
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# n8n local data
+.n8n/
